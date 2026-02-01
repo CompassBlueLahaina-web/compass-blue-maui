@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass Blue Unit 432 | Luxury Maui Rental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Montserrat:wght@300;400;600&display=swap');
+        
+        :root {
+            --ocean-deep: #1a365d;
+            --ocean-blue: #2c5282;
+            --maui-sky: #ebf8ff;
+        }
+
+        body { font-family: 'Montserrat', sans-serif; color: #333; scroll-behavior: smooth; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .blur-nav {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 blur-nav border-b border-blue-50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-900 rounded-full flex items-center justify-center text-white shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-lg font-bold tracking-tighter text-blue-900 leading-none">COMPASS BLUE</span>
+                    <span class="text-[10px] tracking-[0.2em] uppercase text-blue-500 font-semibold">Unit 432 • Front St</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-10 font-semibold text-xs uppercase tracking-[0.15em]">
+                <a href="#ocean" class="text-gray-600 hover:text-blue-900 transition">Ocean Soul</a>
+                <a href="#mountain" class="text-gray-600 hover:text-blue-900 transition">King's View</a>
+                <a href="#lifestyle" class="text-gray-600 hover:text-blue-900 transition">Lifestyle</a>
+                <a href="#reserve" class="bg-blue-900 text-white px-7 py-3 rounded-full hover:bg-blue-800 transition shadow-md">Reserve Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center text-white hero-section overflow-hidden">
+        <div class="relative z-10 text-center px-6">
+            <h1 class="text-6xl md:text-9xl mb-4 font-normal italic">Ocean Soul</h1>
+            <p class="text-lg md:text-2xl font-light tracking-widest uppercase mb-12 opacity-90">Front Street Waterfront • Lahaina, Maui</p>
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+                <a href="#reserve" class="px-12 py-5 bg-white text-blue-900 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-blue-50 transition-all shadow-2xl">Book Your Stay</a>
+                <a href="#ocean" class="px-12 py-5 border border-white/50 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-white/10 backdrop-blur-sm transition-all">Explore Unit 432</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ocean Section -->
+    <section id="ocean" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="order-2 lg:order-1">
+                    <span class="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4 block">Waterfront Paradise</span>
+                    <h2 class="text-5xl md:text-6xl mb-8 leading-tight">Where the Pacific meets your doorstep.</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        Experience the raw beauty of Maui from your private ocean-facing terrace. Unit 432 is perched directly above the historic Lahaina waterfront.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 mb-10">
+                        <div>
+                            <h4 class="font-bold text-xl mb-2">Oceanfront Lanai</h4>
+                            <p class="text-gray-500 text-sm">Direct sunset views every single evening.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl mb-2">Surf Access</h4>
+                            <p class="text-gray-500 text-sm">Walk 3 minutes to the best breaks on Front Street.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img src="https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?auto=format&fit=crop&q=80&w=1000" alt="Ocean View" class="rounded-3xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mountain Section -->
+    <section id="mountain" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <span class="text-emerald-600 font-bold uppercase tracking-widest text-sm mb-4 block">Dual-Aspect Views</span>
+            <h2 class="text-5xl md:text-7xl mb-12">The King's View</h2>
+            <div class="relative h-[500px] rounded-[40px] overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&q=80&w=2000" class="w-full h-full object-cover" alt="Mountain View">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-12 text-left">
+                    <div class="text-white">
+                        <h3 class="text-4xl mb-2 font-normal italic">Mountain Serenity</h3>
+                        <p class="text-white/80 tracking-wide uppercase text-sm">West Maui Mountains</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12 text-center">
+        <p class="text-sm opacity-60 tracking-widest uppercase">&copy; 2024 Compass Blue Unit 432 • Front St, Lahaina</p>
+    </footer>
+
+</body>
+</html>
