@@ -38,4 +38,4 @@ User-agent: Applebot
 Allow: /
 
 # Sitemap location (helps all crawlers discover all pages)
-Sitemap: https://compassbluelahaina-web.github.io/sitemap.xml
+Sitemap: https://compassbluelahaina-web.github.io/compass-blue-maui/sitemap.xml
