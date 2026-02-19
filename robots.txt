@@ -1,0 +1,41 @@
+# robots.txt for compassbluelahaina-web.github.io
+# Last updated: 2026-02-18
+
+# Allow all crawlers by default
+User-agent: *
+Allow: /
+
+# ── AI Search Crawlers — Explicitly Welcomed ──────────────────────────────────
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Bard, Gemini)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Sitemap location (helps all crawlers discover all pages)
+Sitemap: https://compassbluelahaina-web.github.io/sitemap.xml
