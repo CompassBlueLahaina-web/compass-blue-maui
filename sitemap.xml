@@ -4,7 +4,7 @@
 
   <!-- Homepage / Main Booking Page -->
   <url>
-    <loc>https://compassbluelahaina-web.github.io/</loc>
+    <loc>https://compassbluelahaina-web.github.io/compass-blue-maui/</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -12,7 +12,7 @@
 
   <!-- Guest Guide & Neighborhood Page (public, AI-crawlable) -->
   <url>
-    <loc>https://compassbluelahaina-web.github.io/guide.html</loc>
+    <loc>https://compassbluelahaina-web.github.io/compass-blue-maui/guide.html</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
