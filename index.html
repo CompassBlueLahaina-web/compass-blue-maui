@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWM16TSZFX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EWM16TSZFX');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Compass Blue — the only true beachfront vacation rental in the Kaanapali area of Lahaina, Maui. Step directly to the ocean. Hawaiian monk seals, humpback whales (November–May), and sea turtles on the beach. Walk to Lahaina Harbor for whale watching boats. Book direct on Houfy with no service fees, or reserve on VRBO and Airbnb.">
-    <title>Compass Blue | True Beachfront · Lahaina, Kaanapali Area, Maui | Book Direct — No Fees</title>
+    <meta name="description" content="Compass Blue: Lahaina's only true beachfront oceanfront rental. Step directly to sand. See monk seals, whales, turtles. Walk to harbor. Book direct or via Airbnb/VRBO.">
+    <title>Compass Blue Beachfront — Lahaina, Maui Oceanfront Rental</title>
 
     <!-- ═══════════════════════════════════════════════════════════
          SCHEMA MARKUP — AI & Search Visibility
@@ -75,7 +84,15 @@
         "Kaanapali beachfront access",
         "Lahaina Harbor activities",
         "Lahaina Banyan Tree"
-      ]
+      ],
+      "telephone": "+1-808-667-7088",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 8,
+        "bestRating": "5",
+        "worstRating": "1"
+      }
     }
     </script>
 
@@ -622,6 +639,58 @@
             font-size: 1rem;
         }
 
+        /* ── CONTACT SECTION ── */
+        .contact-section {
+            background: #f9f9f9;
+            padding: 4rem 0;
+        }
+
+        .contact-section .section-title {
+            margin-bottom: 2rem;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 6px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 0.95rem;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .contact-form button {
+            background: var(--primary);
+            color: white;
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            width: 100%;
+        }
+
+        .contact-form button:hover {
+            background: var(--secondary);
+        }
+
         /* ── MAP SECTION ── */
         .map-section {
             padding: 4rem 0 2rem;
@@ -810,21 +879,33 @@
             <div class="content-grid">
                 <div class="content-block">
                     <h3>Welcome Home</h3>
-                    <p>Our King's View (Mauka &amp; Rainbows) unit at Lahaina Shores Beach Resort offers stunning mountain and rainbow views with delightful surprises — spot the iconic Lahaina Banyan Tree to the south and catch glimpses of Lahaina Harbor from your lanai.</p>
-                    <p style="margin-top: 1.5rem;"><strong>Sleeps up to 4 guests comfortably:</strong> Queen bed plus two Serta convertible twin beds — perfect for families or friends traveling together.</p>
-                    <p style="margin-top: 1.5rem;">The space reflects our family's Lahaina roots, with carefully curated pieces from The Whaler Ltd., the beloved Front Street shop that was part of historic Lahaina's fabric. Every design choice honors that legacy while providing modern comfort.</p>
+                    <p>Our King's View (Mauka &amp; Rainbows) unit at Lahaina Shores Beach Resort offers stunning mountain and rainbow views with delightful surprises — spot the iconic Lahaina Banyan Tree to the south and catch glimpses of Lahaina Harbor from your lanai. Unlike resort condos tucked behind hotel corridors, Compass Blue sits directly on the sand. You step from your unit straight to the beach—no walking through common areas, no pool crossings, no security gates.</p>
+                    <p style="margin-top: 1.5rem;"><strong>Why Compass Blue?</strong> Wake up to ocean views. Watch humpback whales breach (November–May). Spot Hawaiian monk seals and green sea turtles on the beach in front of your unit. Walk 2 blocks to Lahaina Harbor to board whale watching, snorkeling, or sunset catamaran tours—without a car. This is true beachfront living in Lahaina, not a resort property masquerading as oceanfront.</p>
+                    <p style="margin-top: 1.5rem;"><strong>Sleeps up to 4 guests comfortably:</strong> Queen bed plus two Serta convertible twin beds — perfect for families or friends traveling together. Full kitchen, full bathroom, mountain-view lanai with hanging swing nest chair (a guest favorite for rainbow watching).</p>
+                    <p style="margin-top: 1.5rem;">The space reflects our family's Lahaina roots, with carefully curated pieces from The Whaler Ltd., the beloved Front Street shop that was part of historic Lahaina's fabric. Every design choice honors that legacy while providing modern comfort and the authenticity you can't find in chain hotels.</p>
                 </div>
                 <div class="content-block">
                     <h3>Prime Location</h3>
-                    <ul>
+                    <p><strong>🚶 Walking Distance (No Car Needed)</strong></p>
+                    <ul style="margin-bottom: 1.5rem;">
                         <li>Beachfront at Lahaina Shores Beach Resort — direct sand access</li>
-                        <li><strong>Walk to Lahaina Harbor</strong> — board whale watching, snorkeling &amp; sunset sail boats without a car</li>
-                        <li>2-3 blocks to Lahaina Banyan Tree &amp; Front Street</li>
-                        <li>Kaanapali beach catamarans launch directly from the sand (optional beach boarding)</li>
-                        <li>Mala Ocean Tavern, Star Noodle, Coco Deck</li>
-                        <li>Old Lahaina Luau, Aloha Mixed Plate</li>
-                        <li>The Coffee Stop — local favorite, open until noon</li>
-                        <li>1.8 miles from Lahaina Cannery</li>
+                        <li><strong>Lahaina Harbor (2 blocks)</strong> — board whale watching, snorkeling &amp; sunset sail boats without a car. Trilogy catamarans now launch from here.</li>
+                        <li><strong>Fresh Food Truck (between resort &amp; harbor)</strong> — M-F, 8am-1pm — breakfast burritos, smoothies, next to pop-up surf school &amp; equipment rentals (surfboards, boogie boards, SUP)</li>
+                        <li><strong>Lahaina Banyan Tree (2-3 blocks)</strong> — historic survivor of 2023 fires, global symbol of resilience, walkable in minutes</li>
+                        <li><strong>The Coffee Stop (1 mile walk)</strong> — local favorite, open until noon. Kraken Coffee opening on-site soon.</li>
+                    </ul>
+                    <p><strong>🚗 Short Drive (1–2 miles)</strong></p>
+                    <ul>
+                        <li><strong>Dining Cluster (2 miles):</strong> Mala Ocean Tavern, Star Noodle, Coco Deck, Old Lahaina Luau, Aloha Mixed Plate</li>
+                        <li><strong>Lahaina Cannery (1.8 miles)</strong></li>
+                    </ul>
+                    <p><strong>🏝️ Scenic Drive (5–9 miles north)</strong></p>
+                    <ul>
+                        <li><strong>Whalers Village (5 miles)</strong> — Outdoor shopping mall on the beach. Leilani's on the Beach, Hula Grill, Cool Cat Cafe (great burgers, reasonable prices, validates parking).</li>
+                        <li><strong>Honolowai (5.5 miles)</strong> — Food truck collection by Times Market: Papi's Ohana, Pau Bakery, Badass Coffee (all outstanding).</li>
+                        <li><strong>Kahana (6–7 miles)</strong> — Neighborhood with condo communities; pass through en route to Kapalua.</li>
+                        <li><strong>Kapalua Resort, Dragon's Teeth (8–9 miles)</strong> — Stunning views, hiking, coastal exploration.</li>
+                        <li><strong>The Labyrinth (8–9 miles)</strong> — Unique geological formations; parking can be challenging (QR code scan to pay). ABC Honolulu General Store nearby with deli — Loco Moco (before 5pm, reasonable prices) and Dole Whip (hit or miss).</li>
                     </ul>
                 </div>
             </div>
@@ -839,6 +920,31 @@
             <h3>Lahaina's Banyan Tree — A Symbol of Resilience</h3>
             <p>Planted in 1873 and spanning nearly an entire city block, the Lahaina Banyan Tree at Banyan Court Park is one of the most remarkable trees in the United States. When the devastating wildfires swept through Lahaina in August 2023, the Banyan Tree survived — and became a worldwide symbol of Lahaina's enduring spirit. Compass Blue guests can walk there in minutes. Many come specifically to see it and to be part of Lahaina's story of renewal.</p>
         </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         GUEST TESTIMONIALS
+    ════════════════════════════════════════════════════════════ -->
+    <div class="container">
+        <section class="section">
+            <h2 class="section-title">What Guests Say</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 8px; border-left: 4px solid var(--primary);">
+                    <p style="font-style: italic; color: #333; margin-bottom: 1rem;">"Very peaceful place to be! Great size for a couple and you are located on the beach which is amazing to see sunsets 🌅 Definitely would return if we come back to Maui!"</p>
+                    <p style="color: #999; font-size: 0.9rem;">★★★★★ Airbnb Review</p>
+                </div>
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 8px; border-left: 4px solid var(--primary);">
+                    <p style="font-style: italic; color: #333; margin-bottom: 1rem;">"Kristie was an excellent host! Proactive, responsive and very helpful. The room is very clean and comfortable. We loved the beautiful view, the beachfront area, and how close it was to great restaurants and beaches. Would definitely come back!"</p>
+                    <p style="color: #999; font-size: 0.9rem;">★★★★★ Airbnb Review</p>
+                </div>
+                <div style="background: #f8f9fa; padding: 2rem; border-radius: 8px; border-left: 4px solid var(--primary);">
+                    <p style="color: #333; margin-bottom: 0.5rem; font-weight: 600;">🏆 Airbnb Recognition</p>
+                    <p style="color: #333; font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Guest Favorite</strong> • <strong>Top 10%</strong> of Homes</p>
+                    <p style="color: #333; font-size: 0.95rem; margin-bottom: 0.5rem;">★★★★★ 5.0 rating (8 reviews)</p>
+                    <p style="color: #999; font-size: 0.85rem;">13 years hosting • One of the most loved homes on Airbnb</p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- ═══════════════════════════════════════════════════════════
@@ -970,18 +1076,27 @@
     </div>
 
     <!-- ═══════════════════════════════════════════════════════════
-         SOCIAL
+         CONTACT US
     ════════════════════════════════════════════════════════════ -->
-    <div class="social-section">
+    <section class="contact-section">
         <div class="container">
-            <h3 style="font-size: 1.8rem; color: var(--primary); margin-bottom: 1rem;">Stay Connected</h3>
-            <div class="social-links">
-                <a href="https://instagram.com/compassbluelahaina" class="social-link" target="_blank" rel="noopener">📷 Instagram</a>
-                <a href="https://facebook.com/compassbluelahaina" class="social-link" target="_blank" rel="noopener">👍 Facebook</a>
-            </div>
-            <p class="social-description">Follow for current local events, companies and restaurants we love, plus photos you'll enjoy until your next visit.</p>
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form" action="https://formspree.io/f/xojkekzb" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p style="text-align: center; margin-top: 1.5rem; color: #999; font-size: 0.9rem;">We'll get back to you within 24 hours.</p>
+            <p style="text-align: center; margin-top: 2rem; color: #666; font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 1.5rem;">
+                <strong>Quick Contact Info:</strong><br>
+                📱 <a href="tel:+18086677088" style="color: var(--primary); text-decoration: none;">808-667-7088</a> (text preferred)<br>
+                📧 CompassBlueLahaina@gmail.com<br><br>
+                <strong>Fastest response:</strong> Reach us via 📷 <a href="https://instagram.com/compassbluelahaina" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none;">Instagram</a> or 👍 <a href="https://facebook.com/compassbluelahaina" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none;">Facebook</a> DM
+            </p>
         </div>
-    </div>
+    </section>
 
     <!-- ═══════════════════════════════════════════════════════════
          MAP
@@ -1018,6 +1133,13 @@
     <footer>
         <p>&copy; 2026 Compass Blue Lahaina. All rights reserved.</p>
         <p>Lahaina Shores Beach Resort &nbsp;|&nbsp; 475 Front Street, Lahaina, HI 96761</p>
+        <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.2);">
+            <p style="margin-bottom: 0.8rem;">Stay Connected</p>
+            <div class="social-links" style="gap: 1.5rem;">
+                <a href="https://instagram.com/compassbluelahaina" class="social-link" target="_blank" rel="noopener">📷 Instagram</a>
+                <a href="https://facebook.com/compassbluelahaina" class="social-link" target="_blank" rel="noopener">👍 Facebook</a>
+            </div>
+        </div>
     </footer>
 
 </body>
